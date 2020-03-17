@@ -30,6 +30,6 @@ def search_phrase(key_word):
                     "link": link
                 }
                 results.append(item)
-        for obj in results:
-            print(obj['title'],' - ',obj['link'],'\n')
+        for item in results:
+            return  results
         
